@@ -6,7 +6,7 @@ int main()
 {
 	HelloWorld *helloWorld = new HelloWorld();
 
-	helloWorld->SayThis();
+	helloWorld->SayHello();
 	
 	free(helloWorld);
 	getchar();

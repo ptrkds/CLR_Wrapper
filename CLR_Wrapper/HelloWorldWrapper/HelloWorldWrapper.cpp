@@ -1,7 +1,7 @@
 // This is the main DLL file.
 
 #include "stdafx.h"
-
+#include <iostream>
 #include "HelloWorldWrapper.h"
 #include "HelloWorld.cpp"
 
@@ -10,7 +10,7 @@ HelloWorldWrapper::hwWrapper::hwWrapper()
 	helloWorld = new HelloWorld();
 }
 
-void HelloWorldWrapper::hwWrapper::SayHello()
+wchar_t* HelloWorldWrapper::hwWrapper::SayHello()
 {
-	helloWorld->SayThis();
+	return helloWorld->SayHello();
 }

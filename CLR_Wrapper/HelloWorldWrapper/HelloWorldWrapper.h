@@ -1,6 +1,7 @@
 // HelloWorldWrapper.h
 
 #include "HelloWorld.h"
+#include <iostream>
 
 #pragma once
 
@@ -12,7 +13,7 @@ namespace HelloWorldWrapper {
 	{
 	public:
 		hwWrapper();
-		void SayHello();
+		wchar_t* SayHello();
 	private:
 		HelloWorld *helloWorld;
 	};

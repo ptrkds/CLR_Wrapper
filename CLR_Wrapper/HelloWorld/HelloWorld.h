@@ -2,5 +2,5 @@
 
 class HelloWorld {
 public:
-	void SayThis();
+	wchar_t* SayHello();
 };

@@ -14,3 +14,5 @@ CLR_Wrapper/CSharpApp/bin/
 CLR_Wrapper/HelloWorld/Debug/
 
 CLR_Wrapper/HelloWorldWrapper/Debug/
+
+*.user

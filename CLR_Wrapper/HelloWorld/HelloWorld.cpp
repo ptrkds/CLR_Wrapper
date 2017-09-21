@@ -6,8 +6,10 @@
 #include <iostream>
 
 
-void HelloWorld::SayThis()
-
+wchar_t* HelloWorld::SayHello()
 {
-	std::cout << "Hello World!!\n";
+	wchar_t * helloWorld;
+	helloWorld = L"Hello World!!\n";
+
+	return helloWorld;
 }
