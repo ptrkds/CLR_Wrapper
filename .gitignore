@@ -1,0 +1,16 @@
+
+CLR_Wrapper/\.vs/
+
+CLR_Wrapper/CLRWrapper/Debug/
+
+CLR_Wrapper/CppApp/Debug/
+
+CLR_Wrapper/CSharpApp/obj/
+
+CLR_Wrapper/Debug/
+
+CLR_Wrapper/CSharpApp/bin/
+
+CLR_Wrapper/HelloWorld/Debug/
+
+CLR_Wrapper/HelloWorldWrapper/Debug/
